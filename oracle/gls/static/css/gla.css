@@ -3,9 +3,8 @@ tooltip {
 			background: #fff;
 			color: #333;
 			border: 2px solid #333;
-			font-size: 15px; 
-			width:20%
-			height:20%
+			font-size: 18px; 
+			
 		}
 			
 		.myClass1 {
@@ -48,7 +47,7 @@ tooltip {
 		.guide {
 			
 			padding-top:30px;
-			padding-left:85px;
+			padding-left:60px;
 			display: inline-block;
 			color:blue;
 		}

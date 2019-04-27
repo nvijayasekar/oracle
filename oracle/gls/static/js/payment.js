@@ -3,7 +3,8 @@ $(document).ready(function() {
 	$.getJSON('static/json/guide.json', function(jd) {
 		result = jd.steps;
 		$.each(result,function(id,item){
-			var getData = "id : "+result[id].id+",content:"+result[id].content+"\n ,selector:"+result[id].selector+" ,Next: "+result[id].next+""
+			var getData = "id : "+result[id].id+",																			content:"+result[id].content+",																				selector:"+result[id].selector+" ,																				Next: "+result[id].next+"";
+			
 			$(result[id].selector).attr( 'tooltip',getData);	
 	  });
 	  
@@ -34,6 +35,7 @@ for (var x=0;x < a.length;x++) { //I'm using "for" loop to get all "a" elements 
 			   base.style.color = 'white';
 			    base.style.height = '20%';
 				 base.style.width = '20%';
+				
                document.body.appendChild(base);
          }
 
