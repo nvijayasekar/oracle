@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 	$('div').on('click',function(){
 		
-		$(this).next().show();
+		$(this).next().show(); //Current div action
 	});
 var a = $('div'),
     tip, text,
