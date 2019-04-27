@@ -14,5 +14,11 @@
 			"content": "tip on third div.",
 			"selector": "div:eq(2)",
 			"next": null
+		},
+		{
+			"id": "4",
+			"content": "Testing.",
+			"selector": "div:eq(3)",
+			"next": null
 		}]	
 }
