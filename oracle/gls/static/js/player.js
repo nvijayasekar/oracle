@@ -14,6 +14,13 @@ $(document).ready(function() {
 		
 		$(this).next().show(); //Current div action
 	});
+	
+	$('#reset').on('click',function(e){
+		e.preventDefault();
+		$('div').hide(); 
+		$('.myClass1').show();
+	});
+	
 var a = $('div'),
     tip, text,
     base = document.createElement('tooltip'); //Defining all objects
